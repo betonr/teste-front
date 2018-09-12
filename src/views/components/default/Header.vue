@@ -11,13 +11,11 @@
 import MarvelIcon from '@/views/assets/images/marvel_favicon.png'
 
 export default {
-    data() {
-        return {
-            images: {
-                icon: MarvelIcon
-            }
+    data: () => ({
+        images: {
+            icon: MarvelIcon
         }
-    }
+    })
 }
 </script>
 

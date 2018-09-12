@@ -29,13 +29,11 @@ import Characters from '@/middleware/Characters'
 export default {
     props: ['id'],
 
-    data() {
-        return {
-            pager: 1,
-            storiesList: [],
-            loading: false
-        }
-    },
+    data: () => ({
+        pager: 1,
+        storiesList: [],
+        loading: false
+    }),
 
     mounted() {
         this._getStories(this.id)

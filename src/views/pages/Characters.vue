@@ -39,16 +39,14 @@ export default {
         'm-details-character': DetailsCharacter
     },
 
-    data() {
-        return {
-            textSearch: '',
-            charactersList: [],
-            charactersListDefault: [],
-            character: null,
-            pager: 1,
-            loading: null            
-        }
-    },
+    data: () => ({
+        textSearch: '',
+        charactersList: [],
+        charactersListDefault: [],
+        character: null,
+        pager: 1,
+        loading: null            
+    }),
 
     async mounted() {
         try {

@@ -35,13 +35,11 @@ export default {
         'm-box-view': BoxView
     },
 
-    data() {
-        return {
-            pager: 1,
-            seriesList: [],
-            loading: false
-        }
-    },
+    data: () => ({
+        pager: 1,
+        seriesList: [],
+        loading: false
+    }),
 
     mounted() {
         this._getSeries(this.id)
