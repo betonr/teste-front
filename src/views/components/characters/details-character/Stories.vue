@@ -8,7 +8,7 @@
 
         <div class="stories" v-if="storiesList != null && storiesList.length > 0">
             <div v-for="stories in storiesList.slice((pager-1)*10, (pager*10))" :key="stories.id">
-                <p>{{ stories.title }}</p>
+                <p class="title">{{ stories.title }}</p>
             </div>
         </div>
 
