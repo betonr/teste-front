@@ -1,11 +1,11 @@
 <template>
     <div class="general">
-        <m-header></m-header>
+        <m-header />
 
         <!-- CONTENT PAGE -->
-        <router-view/>
+        <router-view />
 
-        <m-footer></m-footer>        
+        <m-footer />        
     </div>
 </template>
 
@@ -14,6 +14,8 @@ import Header from '@/views/components/default/Header'
 import Footer from '@/views/components/default/Footer'
 
 export default {
+    name: "Default",
+
     components: {
         'm-header': Header,
         'm-footer': Footer

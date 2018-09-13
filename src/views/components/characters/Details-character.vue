@@ -1,5 +1,5 @@
 <template>
-    <section v-if="character != undefined">
+    <section v-if="character">
 
         <el-dialog 
             title="Detalhes do Personagem"

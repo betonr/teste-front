@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default.test.js modification - snapshot 1`] = `
+<div
+  class="general"
+>
+  <m-header-stub />
+   
+  <router-view-stub
+    name="default"
+  />
+   
+  <m-footer-stub />
+</div>
+`;

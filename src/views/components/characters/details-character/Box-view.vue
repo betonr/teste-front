@@ -1,5 +1,5 @@
 <template>
-    <article class="box-view">
+    <article class="box-view" v-if="element">
         <img 
             :src="`${element.thumbnail.path}.${element.thumbnail.extension}`" 
             :title="`capa do quadrinho ${element.title}`" />

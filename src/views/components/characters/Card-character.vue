@@ -1,5 +1,5 @@
 <template>
-    <div class="card-character">
+    <div class="card-character" v-if="character">
         <div class="box-thumbnail">
             <v-lazy-image 
                 :src="`${character.thumbnail.path}.${character.thumbnail.extension}`" 

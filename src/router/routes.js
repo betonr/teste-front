@@ -1,5 +1,5 @@
-//layouts
-import Default from '@/views/layouts/Default'
+//templates
+import Default from '@/views/templates/Default'
 
 //pages
 import Characters from '@/views/pages/Characters'

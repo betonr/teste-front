@@ -77,7 +77,7 @@ export default {
 
     methods: {
         openDetails(id) {
-            this.character = this.charactersList.filter( character => character.id == id )
+            this.character = this.charactersList.some( character => character.id == id ) == true ? this.charactersList.filter( character => character.id == id ) : null 
         },
         _startLoading() {
             this.loading = this.$loading({
