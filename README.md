@@ -2,7 +2,7 @@
  > CASE: https://github.com/Allgoo/teste-front
 
 # APPLICATION - MARVEL
- > DEMO: 104.248.66.242/teste-front/marvel
+ > DEMO: http://104.248.66.242/test-allgoo/front/marvel/
 
  - SPA (single page application)
  - Framework: Vue.js
