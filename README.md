@@ -16,7 +16,7 @@
    - webpack
    
 ## Architecture
-  image ...
+  ![diagram architecture](https://github.com/betonr/teste-front/blob/master/diagram%20test-allgoo-front.jpg)
 
 ## Running
 * **prerequisite:**
